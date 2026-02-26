@@ -54,6 +54,7 @@ async function buildAll() {
     target: "node18",
     external: externals,
     sourcemap: true,
+    format: "esm",
   });
 
   console.log("build complete");
